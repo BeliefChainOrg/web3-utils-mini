@@ -1,6 +1,6 @@
 {
   "name": "web3-utils-mini",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "only pick the useful func from web3/utils",
   "main": "web3-utils.js",
   "repository": "https://github.com/BeliefChainOrg/web3-utils-mini.git",
