@@ -11,6 +11,7 @@ var sha3 = function (value, options) {
 
   return Sha3(value, {outputLength: 256}).toString();
 };
+exports.sha3 = sha3;
 
 /**
  * Checks if the given string is a checksummed address
@@ -32,6 +33,7 @@ var isChecksumAddress = function (address) {
     }
     return true;
 };
+exports.isChecksumAddress = isChecksumAddress;
 
 /**
  * Checks if the given string is an address
@@ -52,6 +54,5 @@ var isAddress = function (address) {
         return isChecksumAddress(address);
     }
 };
-
-module.exports = {sha3, isChecksumAddress, isAddress};
+exports.isAddress = isAddress;
 
