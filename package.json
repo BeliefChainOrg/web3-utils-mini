@@ -1,0 +1,17 @@
+{
+  "name": "web3-utils-mini",
+  "version": "1.0.1",
+  "description": "only pick the useful func from web3/utils",
+  "main": "web3-utils.js",
+  "repository": "https://github.com/BeliefChainOrg/web3-utils-mini.git",
+  "author": "JustinChou<zhou78620051@126.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
